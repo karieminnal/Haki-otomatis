@@ -27,17 +27,6 @@ class EHaki(object):
         
 
     def permohonan_baru(self):
-        print ("Masukan Nama : ")
-        self.name=input()
-        print("Masukan Alamat : ")
-        self.address=input()
-        print("Masukan Kota : ")
-        self.city=input()
-        print("Masukan Kode Pos : ")
-        self.zip_code=input()
-        print("masukan Provinsi")
-        self.province=input()
-        sleep(3)
         self.driver.find_element_by_xpath('/html/body/div/div[1]/div/div/div[2]/div/div/ul/li[1]/a').click()
         sleep(2)
         self.driver.find_element_by_xpath('/html/body/div/div[1]/div/div/div[2]/div/div/ul/li[1]/ul/li[1]').click()

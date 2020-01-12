@@ -1,10 +1,5 @@
 import Haki
 
-
-print("Untuk Berapa Orang ? ")
-people=input()
-for x in people :
-
 print ("Masukan Judul : ")
 title=input()
 print ("Masukan deskripsi : ")
